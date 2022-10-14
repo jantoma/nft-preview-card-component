@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+/****** font-family: 'Outfit', sans-serif; */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    --Soft-blue: hsl(215, 51%, 70%);
+    --Cyan: hsl(178, 100%, 50%);
+    --Very-dark-blu-mainBG: hsl(217, 54%, 11%);
+    --Very-dark-blue-cardBG: hsl(216, 50%, 16%);
+    --Very-dark-blue-line: hsl(215, 32%, 27%);
+    --White: hsl(0, 0%, 100%);
+}
+
+body {
+    background: var(--Very-dark-blu-mainBG)
+}
+
+.container {
+    width: 400px;
+    padding: 20px;
+    margin: 100px auto 10px;
+    background-color: var(--Very-dark-blue-cardBG);
+    border-radius: 20px;
+}
+
+header {
+    width: 100%;
+    overflow: hidden;
+    border-radius: 15px;
+}
+
+header img {
+    width: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.main-sections {
+    margin: 25px auto;
+    padding: 10px 0;
+}
+
+article h2 {
+    font-family: 'Outfit', sans-serif;
+    font-weight: 600;
+    font-size: 25px;
+    color: var(--White);
+}
+
+article p {
+    font-family: 'Outfit', sans-serif;
+    font-weight: 400;
+    font-size: 22px;
+    color: var(--Soft-blue);
+    padding-top: 20px;
+}
+
+.box-icons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 25px;
+}
+
+.main-sections .sec-left {
+    display: flex;
+    align-items: center;
+    width: 40%;
+}
+
+.sec-left h3 {
+    font-family: 'Outfit', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: var(--Cyan);
+    padding: 0 6px;
+
+}
+
+.sec-left img {
+    width: 15px;
+}
+
+.main-sections .sec-right {
+    display: flex;
+    width: 40%;
+    align-items: center;
+    padding-left: 25px;
+
+}
+
+.sec-right h3 {
+    font-family: 'Outfit', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: var(--Soft-blue);
+    padding: 0 6px;
+}
+
+.sec-right img {
+    width: 25px;
+}
+
+
+/* start of footer  */
+footer {
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    border-top: 2px solid var(--Very-dark-blue-line);
+}
+
+footer img {
+    width: 15%;
+    border: 1px solid var(--White);
+    border-radius: 50%;
+}
+
+footer p {
+    font-family: 'Outfit', sans-serif;
+    font-weight: 600;
+    color: var(--White);
+    font-size: 20px;
+    padding-left: 30px;
+}
+
+footer p span {
+    font-family: 'Outfit', sans-serif;
+    font-weight: 600;
+    color: var(--Soft-blue);
+    font-size: 20px;
+}
+/* End of footer  */
